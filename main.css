@@ -1,0 +1,173 @@
+.main_head,
+.view_data_child,
+.view_change_data 
+{
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main_head .second span 
+{
+    display: block;
+    margin: 4px;
+}
+.main_head .second .first_small  span
+{
+    font-weight: 700;
+}
+.main_head .second .second_small span 
+{
+    background-color: #ddd;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.view_data_child,
+.view_change_data 
+{
+    border: none;
+}
+.view_data_child h2
+{
+    color: rgb(52, 54, 57);
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.1em;
+}
+.view_data_child p 
+{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+}
+.view_data_child p span 
+{
+    color: #000;
+    font-weight: 700;
+}
+.view_change_data .ask h2 
+{
+    color: rgb(52, 54, 57);
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+}
+.view_change_data .ask .btn,
+.view_last_data .btn
+{
+    padding: 10px 20px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 190px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 10px 2%;
+    font-size: 1.5rem;
+    background-color: #0092c4;
+    box-shadow: 0 3px 0 #007399, 0 6px 2px rgba(0,0,0,.1);
+}
+.view_last_data .btn
+{
+    width: 170px;
+}
+.view_change_data .ask .btn:hover,
+.view_last_data .btn:hover
+{
+    top: 1px;
+    box-shadow: 0 5px 0 #007399, 0 6px 2px rgba(0,0,0,.1);
+}
+.last_data h3 
+{
+    font-family: "Playfair Display";
+    font-weight: 400;
+    color: rgb(52, 54, 57);
+    font-size: 32px;
+    line-height: 1.3em;
+
+}
+.last_data .first_p {
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+.last_data .second_p 
+{
+    font-size: 14px;
+    color: #000;
+}
+.view_last_data img {
+    width: 120px;
+}
+.view_last_data p 
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+}
+.view_last_data .dark,
+.view_last_data .dark span 
+{
+    color: #ababab;
+}
+.view_last_data .dark_btn .btn 
+{
+    background-color: #ababab;
+    box-shadow: 0 3px 0 #ababab, 0 6px 2px #ababab !important;
+}
+.view_last_data p span {
+    color: green;
+    font-weight: 900;
+}
+.view_last_data .ani span 
+{
+    background-color: yellow;
+    padding: 1px;
+    color: red;
+}
+.view_change_data .ask_2,
+.view_change_data .ask_3
+{
+    display: none;
+}
+.view_change_data .animate_data h3
+{
+    display: none;
+}
+.view_change_data .last_data
+{
+    display: none;
+}
+
+@media(min-width:320px) and (max-width:991px)
+{
+    .main_head,
+.view_data_child,
+.view_change_data 
+{
+    width: 100%;
+}
+.img_div 
+{
+    justify-content: center !important;
+    margin-bottom: 15px;
+}
+.simple_center
+{
+    text-align: center !important;
+    margin-bottom: 15px;
+}
+.last_V
+{
+    justify-content: center;
+}
+}
